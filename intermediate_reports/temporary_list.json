@@ -1,0 +1,208 @@
+[
+    {
+        "derived_command": "xsser -u \"http://127.0.0.1/DVWA/vulnerabilities/xss_r/\" -g \"?name=XSS\" --cookie \"security=high;PHPSESSID=flgh47156vsatsbsaae1r4r1nb\" --auto --xml \"/home/kali/Desktop/whp/results/Report0.xml\"",
+        "additional_info": {
+            "method": "GET",
+            "url": "http://127.0.0.1/DVWA/vulnerabilities/xss_r/?name=shanky",
+            "cookies": [
+                {
+                    "name": "security",
+                    "value": "high",
+                    "expires": null,
+                    "httpOnly": false,
+                    "secure": false
+                },
+                {
+                    "name": "PHPSESSID",
+                    "value": "flgh47156vsatsbsaae1r4r1nb",
+                    "expires": null,
+                    "httpOnly": false,
+                    "secure": false
+                }
+            ],
+            "queryString": [
+                {
+                    "name": "name",
+                    "value": "shanky"
+                }
+            ],
+            "headers": [
+                {
+                    "name": "Host",
+                    "value": "127.0.0.1"
+                },
+                {
+                    "name": "Connection",
+                    "value": "keep-alive"
+                },
+                {
+                    "name": "sec-ch-ua",
+                    "value": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"90\", \"Google Chrome\";v=\"90\""
+                },
+                {
+                    "name": "sec-ch-ua-mobile",
+                    "value": "?0"
+                },
+                {
+                    "name": "Upgrade-Insecure-Requests",
+                    "value": "1"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36"
+                },
+                {
+                    "name": "Accept",
+                    "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"
+                },
+                {
+                    "name": "Sec-Fetch-Site",
+                    "value": "same-origin"
+                },
+                {
+                    "name": "Sec-Fetch-Mode",
+                    "value": "navigate"
+                },
+                {
+                    "name": "Sec-Fetch-User",
+                    "value": "?1"
+                },
+                {
+                    "name": "Sec-Fetch-Dest",
+                    "value": "document"
+                },
+                {
+                    "name": "Referer",
+                    "value": "http://127.0.0.1/DVWA/vulnerabilities/xss_r/"
+                },
+                {
+                    "name": "Accept-Encoding",
+                    "value": "gzip, deflate, br"
+                },
+                {
+                    "name": "Accept-Language",
+                    "value": "en-US,en;q=0.9"
+                },
+                {
+                    "name": "Cookie",
+                    "value": "security=high; PHPSESSID=flgh47156vsatsbsaae1r4r1nb"
+                }
+            ]
+        }
+    },
+    {
+        "derived_command": "xsser -u \"http://127.0.0.1/DVWA/vulnerabilities/xss_s/\" -p \"txtName=XSS&mtxMessage=XSS&btnSign=XSS\" --cookie \"security=high;PHPSESSID=flgh47156vsatsbsaae1r4r1nb\" --auto --xml \"/home/kali/Desktop/whp/results/Report1.xml\"",
+        "additional_info": {
+            "method": "POST",
+            "url": "http://127.0.0.1/DVWA/vulnerabilities/xss_s/",
+            "cookies": [
+                {
+                    "name": "security",
+                    "value": "high",
+                    "expires": null,
+                    "httpOnly": false,
+                    "secure": false
+                },
+                {
+                    "name": "PHPSESSID",
+                    "value": "flgh47156vsatsbsaae1r4r1nb",
+                    "expires": null,
+                    "httpOnly": false,
+                    "secure": false
+                }
+            ],
+            "queryString": [
+                {
+                    "name": "txtName",
+                    "value": "Jack"
+                },
+                {
+                    "name": "mtxMessage",
+                    "value": "Hello"
+                },
+                {
+                    "name": "btnSign",
+                    "value": "Sign+Guestbook"
+                }
+            ],
+            "headers": [
+                {
+                    "name": "Host",
+                    "value": "127.0.0.1"
+                },
+                {
+                    "name": "Connection",
+                    "value": "keep-alive"
+                },
+                {
+                    "name": "Content-Length",
+                    "value": "52"
+                },
+                {
+                    "name": "Cache-Control",
+                    "value": "max-age=0"
+                },
+                {
+                    "name": "sec-ch-ua",
+                    "value": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"90\", \"Google Chrome\";v=\"90\""
+                },
+                {
+                    "name": "sec-ch-ua-mobile",
+                    "value": "?0"
+                },
+                {
+                    "name": "Upgrade-Insecure-Requests",
+                    "value": "1"
+                },
+                {
+                    "name": "Origin",
+                    "value": "http://127.0.0.1"
+                },
+                {
+                    "name": "Content-Type",
+                    "value": "application/x-www-form-urlencoded"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36"
+                },
+                {
+                    "name": "Accept",
+                    "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"
+                },
+                {
+                    "name": "Sec-Fetch-Site",
+                    "value": "same-origin"
+                },
+                {
+                    "name": "Sec-Fetch-Mode",
+                    "value": "navigate"
+                },
+                {
+                    "name": "Sec-Fetch-User",
+                    "value": "?1"
+                },
+                {
+                    "name": "Sec-Fetch-Dest",
+                    "value": "document"
+                },
+                {
+                    "name": "Referer",
+                    "value": "http://127.0.0.1/DVWA/vulnerabilities/xss_s/"
+                },
+                {
+                    "name": "Accept-Encoding",
+                    "value": "gzip, deflate, br"
+                },
+                {
+                    "name": "Accept-Language",
+                    "value": "en-US,en;q=0.9"
+                },
+                {
+                    "name": "Cookie",
+                    "value": "security=high; PHPSESSID=flgh47156vsatsbsaae1r4r1nb"
+                }
+            ]
+        }
+    }
+]
